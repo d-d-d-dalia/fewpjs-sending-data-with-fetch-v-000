@@ -12,6 +12,7 @@ function submitData() {
     body: 
     JSON.stringify(formData)
   })
+  .then
 }
 
 submitData()
