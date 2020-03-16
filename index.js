@@ -13,3 +13,5 @@ function submitData() {
     JSON.stringify(formData)
   })
 }
+
+submitData()
