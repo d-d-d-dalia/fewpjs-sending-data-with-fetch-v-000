@@ -7,5 +7,6 @@ function submitData() {
       'Accept':
         'application/json'
     }
+    body:
   })
 }
