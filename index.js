@@ -1,5 +1,5 @@
 function submitData() {
-  fetch('http://localhost:300/dogs', {
+  fetch('http://localhost:3000/users', {
     method: 'POST',
     headers: {
       'Content-Type':
