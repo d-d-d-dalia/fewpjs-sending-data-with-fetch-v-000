@@ -1,3 +1,5 @@
+let formData = { name: "Dalia", lifeStyle: "Amazing" }
+
 function submitData() {
   fetch('http://localhost:3000/users', {
     method: 'POST',
