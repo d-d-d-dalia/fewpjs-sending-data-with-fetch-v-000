@@ -1,4 +1,4 @@
-let formData = { name: "Dalia", lifeStyle: "Amazing" }
+let data = { name: "Dalia", lifeStyle: "Amazing" }
 
 function submitData() {
   fetch('http://localhost:3000/users', {
@@ -10,7 +10,7 @@ function submitData() {
         'application/json'
     },
     body: 
-    JSON.stringify(formData)
+    JSON.stringify(data)
   })
   .then(function(response) {
     return response.json()
