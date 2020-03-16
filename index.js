@@ -12,7 +12,12 @@ function submitData() {
     body: 
     JSON.stringify(formData)
   })
-  .then()
+  .then(function(response) {
+    return response.json()
+  })
+  .then(function(object) {
+    console.log(object)
+  })
 }
 
 submitData()
