@@ -7,6 +7,6 @@ function submitData() {
       'Accept':
         'application/json'
     }
-    body:
+    body: JSON.stringify(formData)
   })
 }
